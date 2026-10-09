@@ -2,12 +2,12 @@
 
 Status: infra
 Last Updated: 2026-10-09
-Last Recorded: wo-20261009-e39b8776 — Unplanned: feat(composed-flow): account provisioning engine + nine free-API signup specs
+Last Recorded: wo-20261009-c5f9fb0b — Unplanned: feat(actions): account.provision action class + XHR key capture + captcha-rejection halt
 
 <!-- work-orders:begin (generated from portfolio.orders by the record step; edits inside this block are overwritten) -->
 ## Work orders
 
-_Generated 2026-10-09T05:47:23.530Z from the work-order store. Done means verified and recorded; the live view is GregLite._
+_Generated 2026-10-09T05:59:06.156Z from the work-order store. Done means verified and recorded; the live view is GregLite._
 
 **Project:** ganglion (GANGLION, infra)
 
@@ -32,9 +32,10 @@ None.
 
 ### Recently recorded (last 30 days)
 
+- 2026-10-09 `wo-20261009-c5f9fb0b` **Unplanned: feat(actions): account.provision action class + XHR key capture + captcha-rejection halt** (ganglion) — [duke-of-beans/ganglion-private#33](https://github.com/duke-of-beans/ganglion-private/pull/33) · merged, checks none (no CI on this repo), deployed
 - 2026-10-09 `wo-20261009-e39b8776` **Unplanned: feat(composed-flow): account provisioning engine + nine free-API signup specs** (ganglion) — [duke-of-beans/ganglion-private#32](https://github.com/duke-of-beans/ganglion-private/pull/32) · merged, checks none (no CI on this repo), deployed
 - 2026-10-08 `wo-20261008-c58e3f9d` **Unplanned: cloud launch: do not inherit the inference-only OAuth token** (ganglion) — [duke-of-beans/ganglion-private#30](https://github.com/duke-of-beans/ganglion-private/pull/30) · merged, checks none (no CI on this repo), deployed
 - 2026-10-08 `wo-20261008-2bbd6510` **Unplanned: cloud launch: pre-trust the per-dispatch clone so claude --cloud reaches the session URL** (ganglion) — [duke-of-beans/ganglion-private#28](https://github.com/duke-of-beans/ganglion-private/pull/28) · merged, checks none (no CI on this repo), deployed
 
-<!-- work-orders:recorded wo-20261008-2bbd6510 wo-20261008-c58e3f9d wo-20261009-e39b8776 -->
+<!-- work-orders:recorded wo-20261008-2bbd6510 wo-20261008-c58e3f9d wo-20261009-c5f9fb0b wo-20261009-e39b8776 -->
 <!-- work-orders:end -->
