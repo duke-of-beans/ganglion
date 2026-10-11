@@ -8,10 +8,6 @@ name: gate
 on:
   pull_request_target:
     types: [opened, edited, synchronize, reopened, ready_for_review]
-  # BOOTSTRAP ONLY (removed in the next change): a pull_request_target workflow is read from the default
-  # branch, which has no gate.yml yet, so this very PR could never report the required `gate` check.
-  pull_request:
-    types: [opened, edited, synchronize, reopened, ready_for_review]
 permissions:
   contents: read
   pull-requests: read
