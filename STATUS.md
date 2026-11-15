@@ -2,12 +2,12 @@
 
 Status: infra
 Last Updated: 2026-11-15
-Last Recorded: wo-20261115-35a8ab3f — Effector ends runs David kills
+Last Recorded: wo-20261115-3198554a — Effector writes live progress while a dispatch runs
 
 <!-- work-orders:begin (generated from portfolio.orders by the record step; edits inside this block are overwritten) -->
 ## Work orders
 
-_Generated 2026-11-15T01:11:22.654Z from the work-order store. Done means verified and recorded; the live view is GregLite._
+_Generated 2026-11-15T02:37:21.870Z from the work-order store. Done means verified and recorded; the live view is GregLite._
 
 **Project:** ganglion (GANGLION, infra)
 
@@ -54,6 +54,8 @@ None.
 
 ### Recently recorded (last 30 days)
 
+- 2026-11-15 `wo-20261115-3198554a` **Effector writes live progress while a dispatch runs** (ganglion) — [duke-of-beans/ganglion-private#72](https://github.com/duke-of-beans/ganglion-private/pull/72) · merged, checks green, deployed
+- 2026-11-15 `wo-20261115-f160b884` **OpenCode lane: allow harmless shell glue so runs aren't killed** (ganglion) — [duke-of-beans/ganglion-private#71](https://github.com/duke-of-beans/ganglion-private/pull/71) · merged, checks green, deployed
 - 2026-11-15 `wo-20261115-35a8ab3f` **Effector ends runs David kills** (ganglion) — [duke-of-beans/ganglion-private#70](https://github.com/duke-of-beans/ganglion-private/pull/70) · merged, checks green, deployed
 - 2026-11-14 `wo-20261011-68863323` **Self-hosted GitHub Actions runner on Sentinel for the work-order gate (stop paying for Actions minutes)** (ganglion) — [duke-of-beans/easter-agency#23](https://github.com/duke-of-beans/easter-agency/pull/23), [duke-of-beans/ganglion-private#57](https://github.com/duke-of-beans/ganglion-private/pull/57) · merged; David accepted it as is despite: duke-of-beans/ganglion-private#57 checks failed (gate)
 - 2026-11-13 `wo-20261011-8a2f8319` **Land greg-backend self-hosted gate + CI workflow PR (#44)** (ganglion) — [duke-of-beans/ops-context#34](https://github.com/duke-of-beans/ops-context/pull/34) · merged, checks green
@@ -61,5 +63,5 @@ None.
 - 2026-10-24 `wo-20261015-553ced72` **knowledge: VaultSync v2 chunked/resumable notes** (ganglion) — [duke-of-beans/ops-context#52](https://github.com/duke-of-beans/ops-context/pull/52) · merged, checks green
 - 2026-10-23 `wo-20261023-248f0356` **Unblock OpenCode lane: scoped tests and search guidance** (ganglion) — [duke-of-beans/ganglion-private#67](https://github.com/duke-of-beans/ganglion-private/pull/67) · merged, checks green, deployed
 
-<!-- work-orders:recorded wo-20261011-68863323 wo-20261011-8a2f8319 wo-20261011-e717363a wo-20261015-553ced72 wo-20261023-248f0356 wo-20261115-35a8ab3f -->
+<!-- work-orders:recorded wo-20261011-68863323 wo-20261011-8a2f8319 wo-20261011-e717363a wo-20261015-553ced72 wo-20261023-248f0356 wo-20261115-3198554a wo-20261115-35a8ab3f wo-20261115-f160b884 -->
 <!-- work-orders:end -->
