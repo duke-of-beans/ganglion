@@ -2,12 +2,12 @@
 
 Status: infra
 Last Updated: 2026-11-15
-Last Recorded: wo-20261115-6a635cd0 — MAX usage sign-in without a terminal (Sentinel reader)
+Last Recorded: wo-20261115-182038b2 — Yokoten: environment fix from gregore
 
 <!-- work-orders:begin (generated from portfolio.orders by the record step; edits inside this block are overwritten) -->
 ## Work orders
 
-_Generated 2026-11-15T06:13:55.353Z from the work-order store. Done means verified and recorded; the live view is GregLite._
+_Generated 2026-11-15T12:07:41.292Z from the work-order store. Done means verified and recorded; the live view is GregLite._
 
 **Project:** ganglion (GANGLION, infra)
 
@@ -19,7 +19,7 @@ Nothing.
 
 | Order | Project | State | Title | Updated |
 |---|---|---|---|---|
-| `wo-20261115-544f897d` | ganglion | drafted | Yokoten: environment fix from gregore | 2026-11-15 |
+| `wo-20261115-544f897d` | ganglion | in_progress | Yokoten: environment fix from gregore | 2026-11-15 |
 | `wo-20261114-22824f1b` | ganglion | drafted | Yokoten: environment fix from gregore | 2026-11-14 |
 | `wo-20261113-258f571c` | ganglion | drafted | Yokoten: environment fix from gregore | 2026-11-13 |
 | `wo-20261107-f1584600` | ganglion | drafted | Yokoten: environment fix from gregore | 2026-11-07 |
@@ -54,6 +54,7 @@ None.
 
 ### Recently recorded (last 30 days)
 
+- 2026-11-15 `wo-20261115-182038b2` **Yokoten: environment fix from gregore** (ganglion) — [duke-of-beans/ganglion#24](https://github.com/duke-of-beans/ganglion/pull/24) · merged, checks green
 - 2026-11-15 `wo-20261115-6a635cd0` **MAX usage sign-in without a terminal (Sentinel reader)** (ganglion) — [duke-of-beans/ganglion-private#74](https://github.com/duke-of-beans/ganglion-private/pull/74), [duke-of-beans/Gregore-private#904](https://github.com/duke-of-beans/Gregore-private/pull/904) · merged, checks green, deployed
 - 2026-11-15 `wo-20261115-0fdda381` **MAX plan usage reader on Sentinel** (ganglion) — [duke-of-beans/ganglion-private#73](https://github.com/duke-of-beans/ganglion-private/pull/73) · merged, checks green, deployed
 - 2026-11-15 `wo-20261115-f160b884` **OpenCode lane: allow harmless shell glue so runs aren't killed** (ganglion) — [duke-of-beans/ganglion-private#71](https://github.com/duke-of-beans/ganglion-private/pull/71) · merged, checks green, deployed
@@ -61,8 +62,6 @@ None.
 - 2026-11-15 `wo-20261115-35a8ab3f` **Effector ends runs David kills** (ganglion) — [duke-of-beans/ganglion-private#70](https://github.com/duke-of-beans/ganglion-private/pull/70) · merged, checks green, deployed
 - 2026-11-14 `wo-20261011-68863323` **Self-hosted GitHub Actions runner on Sentinel for the work-order gate (stop paying for Actions minutes)** (ganglion) — [duke-of-beans/easter-agency#23](https://github.com/duke-of-beans/easter-agency/pull/23), [duke-of-beans/ganglion-private#57](https://github.com/duke-of-beans/ganglion-private/pull/57) · merged; David accepted it as is despite: duke-of-beans/ganglion-private#57 checks failed (gate)
 - 2026-11-13 `wo-20261011-8a2f8319` **Land greg-backend self-hosted gate + CI workflow PR (#44)** (ganglion) — [duke-of-beans/ops-context#34](https://github.com/duke-of-beans/ops-context/pull/34) · merged, checks green
-- 2026-10-24 `wo-20261011-e717363a` **Lane reroute: network-needing dispatches degrade to the claude lane (capitol-gains U3 root cause) [retry]** (ganglion) — [duke-of-beans/ganglion-private#55](https://github.com/duke-of-beans/ganglion-private/pull/55) · merged, checks green
-- 2026-10-24 `wo-20261015-553ced72` **knowledge: VaultSync v2 chunked/resumable notes** (ganglion) — [duke-of-beans/ops-context#52](https://github.com/duke-of-beans/ops-context/pull/52) · merged, checks green
 
-<!-- work-orders:recorded wo-20261011-68863323 wo-20261011-8a2f8319 wo-20261011-e717363a wo-20261015-553ced72 wo-20261115-0fdda381 wo-20261115-3198554a wo-20261115-35a8ab3f wo-20261115-6a635cd0 wo-20261115-f160b884 -->
+<!-- work-orders:recorded wo-20261011-68863323 wo-20261011-8a2f8319 wo-20261115-0fdda381 wo-20261115-182038b2 wo-20261115-3198554a wo-20261115-35a8ab3f wo-20261115-6a635cd0 wo-20261115-f160b884 -->
 <!-- work-orders:end -->
