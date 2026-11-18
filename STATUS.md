@@ -2,18 +2,17 @@
 
 Status: infra
 Last Updated: 2026-11-18
-Last Recorded: wo-20261118-ca89bbb9 — Replay evals: freeze receipts name why mining skipped orders (plane HTTP reasons)
+Last Recorded: wo-20261117-0768dfb0 — Replay evals P2: first set (Gregore-private, 20 tasks) and baseline of OpenCode + Claude lanes
 
 <!-- work-orders:begin (generated from portfolio.orders by the record step; edits inside this block are overwritten) -->
 ## Work orders
 
-_Generated 2026-11-18T12:19:53.790Z from the work-order store. Done means verified and recorded; the live view is GregLite._
+_Generated 2026-11-18T14:19:20.617Z from the work-order store. Done means verified and recorded; the live view is GregLite._
 
 **Project:** ganglion (GANGLION, infra)
 
 ### Waiting on David
 
-- `wo-20261117-0768dfb0` **Replay evals P2: first set (Gregore-private, 20 tasks) and baseline of OpenCode + Claude lanes** (ganglion) — kicked up: "duke-of-beans/ganglion-private#93 clean-context review asks for changes: tasks array is empty; the manifest must contain the 20 sampled task definitions includ…"
 - `wo-20261117-5ed6543d` **Effector CLIs start with an empty env; read-back output is scrubbed of key shapes** (ganglion) — kicked up: "duke-of-beans/ganglion-private#88 clean-context review asks for changes: Only claude -p gets the empty-env+allowlist; opencode and codex lane spawns are not mo…"
 - `wo-20261118-b3b7942d` **Effector restarts must not orphan running work (drain on G7 WSL; discovery scan waits on its lock)** (ganglion) — kicked up: "duke-of-beans/ganglion-private#101 clean-context review asks for changes: The PR only implements the discovery-scan lock wait; the required drain fix (reading …"
 
@@ -21,7 +20,7 @@ _Generated 2026-11-18T12:19:53.790Z from the work-order store. Done means verifi
 
 | Order | Project | State | Title | Updated |
 |---|---|---|---|---|
-| `wo-20261118-4b298de0` | ganglion | drafted | git-credential-cortex rejects git-plane tokens that contain a dot | 2026-11-18 |
+| `wo-20261118-4b298de0` | ganglion | blocked | git-credential-cortex rejects git-plane tokens that contain a dot | 2026-11-18 |
 | `wo-20261118-1fc04028` | ganglion | landed | Sandbox security posture and command policy for every GANGLION lane (borrowed from YC QM) | 2026-11-18 |
 | `wo-20261118-e9418cac` | ganglion | drafted | Preflight for money and step caps | 2026-11-18 |
 | `wo-20261118-001ed308` | ganglion | drafted | Wire checkLiveness into the heartbeat loop | 2026-11-18 |
@@ -41,9 +40,10 @@ None.
 
 ### Recently recorded (last 30 days)
 
-- 2026-11-18 `wo-20261118-4356f14c` **Replay evals: no second PR read in verify, wait out plane budget, node:test hidden-check runner** (ganglion) — [duke-of-beans/ganglion-private#98](https://github.com/duke-of-beans/ganglion-private/pull/98) · merged, checks green, deployed
-- 2026-11-18 `wo-20261118-c6a25822` **Enforce dispatch signatures by tier; mechanical safeword.discovery-scan action class** (ganglion) — [duke-of-beans/ganglion-private#96](https://github.com/duke-of-beans/ganglion-private/pull/96) · merged, checks green, deployed
+- 2026-11-18 `wo-20261117-0768dfb0` **Replay evals P2: first set (Gregore-private, 20 tasks) and baseline of OpenCode + Claude lanes** (ganglion) — [duke-of-beans/ganglion-private#93](https://github.com/duke-of-beans/ganglion-private/pull/93), [duke-of-beans/ganglion-private#106](https://github.com/duke-of-beans/ganglion-private/pull/106) · merged, checks green, deployed
 - 2026-11-18 `wo-20261118-ca89bbb9` **Replay evals: freeze receipts name why mining skipped orders (plane HTTP reasons)** (ganglion) — [duke-of-beans/ganglion-private#104](https://github.com/duke-of-beans/ganglion-private/pull/104) · merged, checks green, deployed
+- 2026-11-18 `wo-20261118-c6a25822` **Enforce dispatch signatures by tier; mechanical safeword.discovery-scan action class** (ganglion) — [duke-of-beans/ganglion-private#96](https://github.com/duke-of-beans/ganglion-private/pull/96) · merged, checks green, deployed
+- 2026-11-18 `wo-20261118-4356f14c` **Replay evals: no second PR read in verify, wait out plane budget, node:test hidden-check runner** (ganglion) — [duke-of-beans/ganglion-private#98](https://github.com/duke-of-beans/ganglion-private/pull/98) · merged, checks green, deployed
 - 2026-11-18 `wo-20261118-f25f7b7c` **G7 fleet scripts: self-refreshing git-plane installs; version and sign-check the g7-admin poller** (ganglion) — [duke-of-beans/Gregore-private#1014](https://github.com/duke-of-beans/Gregore-private/pull/1014), [duke-of-beans/GregLite#192](https://github.com/duke-of-beans/GregLite/pull/192), [duke-of-beans/ganglion-private#100](https://github.com/duke-of-beans/ganglion-private/pull/100) · merged, checks green, deployed
 - 2026-11-18 `wo-20261118-99bcf068` **Empty-env part 2: OpenCode and Codex spawns, every config load path, report what existed** (ganglion) — [duke-of-beans/ganglion-private#95](https://github.com/duke-of-beans/ganglion-private/pull/95) · merged, checks green, deployed
 - 2026-11-18 `wo-20261118-f4e21ca3` **Replay evals: PR facts via the plane, base walk, min set size; retire the empty set** (ganglion) — [duke-of-beans/ganglion-private#94](https://github.com/duke-of-beans/ganglion-private/pull/94) · merged, checks green, deployed
@@ -74,5 +74,5 @@ None.
 - 2026-11-14 `wo-20261011-68863323` **Self-hosted GitHub Actions runner on Sentinel for the work-order gate (stop paying for Actions minutes)** (ganglion) — [duke-of-beans/easter-agency#23](https://github.com/duke-of-beans/easter-agency/pull/23), [duke-of-beans/ganglion-private#57](https://github.com/duke-of-beans/ganglion-private/pull/57) · merged; David accepted it as is despite: duke-of-beans/ganglion-private#57 checks failed (gate)
 - 2026-11-13 `wo-20261011-8a2f8319` **Land greg-backend self-hosted gate + CI workflow PR (#44)** (ganglion) — [duke-of-beans/ops-context#34](https://github.com/duke-of-beans/ops-context/pull/34) · merged, checks green
 
-<!-- work-orders:recorded wo-20261011-68863323 wo-20261011-8a2f8319 wo-20261115-0fdda381 wo-20261115-182038b2 wo-20261115-3198554a wo-20261115-35a8ab3f wo-20261115-6a635cd0 wo-20261115-f160b884 wo-20261117-0741f7d4 wo-20261117-542aaf69 wo-20261117-59d77b1f wo-20261117-5cf5d07b wo-20261117-64f09cd8 wo-20261117-876b99fb wo-20261117-91a2e289 wo-20261117-9c58bd1c wo-20261117-a5a5a4ad wo-20261117-b22f7044 wo-20261117-c519c2a6 wo-20261117-c5b5e72a wo-20261117-c85d4a83 wo-20261117-e8899da2 wo-20261117-eec95b81 wo-20261117-ffa284d3 wo-20261117-fff1fd95 wo-20261118-4356f14c wo-20261118-99bcf068 wo-20261118-c6a25822 wo-20261118-ca89bbb9 wo-20261118-de533298 wo-20261118-f25f7b7c wo-20261118-f4e21ca3 -->
+<!-- work-orders:recorded wo-20261011-68863323 wo-20261011-8a2f8319 wo-20261115-0fdda381 wo-20261115-182038b2 wo-20261115-3198554a wo-20261115-35a8ab3f wo-20261115-6a635cd0 wo-20261115-f160b884 wo-20261117-0741f7d4 wo-20261117-0768dfb0 wo-20261117-542aaf69 wo-20261117-59d77b1f wo-20261117-5cf5d07b wo-20261117-64f09cd8 wo-20261117-876b99fb wo-20261117-91a2e289 wo-20261117-9c58bd1c wo-20261117-a5a5a4ad wo-20261117-b22f7044 wo-20261117-c519c2a6 wo-20261117-c5b5e72a wo-20261117-c85d4a83 wo-20261117-e8899da2 wo-20261117-eec95b81 wo-20261117-ffa284d3 wo-20261117-fff1fd95 wo-20261118-4356f14c wo-20261118-99bcf068 wo-20261118-c6a25822 wo-20261118-ca89bbb9 wo-20261118-de533298 wo-20261118-f25f7b7c wo-20261118-f4e21ca3 -->
 <!-- work-orders:end -->
