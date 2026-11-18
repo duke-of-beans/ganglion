@@ -2,12 +2,12 @@
 
 Status: infra
 Last Updated: 2026-11-18
-Last Recorded: wo-20261117-5ed6543d — Effector CLIs start with an empty env; read-back output is scrubbed of key shapes
+Last Recorded: wo-20261118-3e5d3305 — Runner heal provisions runners for new private repos
 
 <!-- work-orders:begin (generated from portfolio.orders by the record step; edits inside this block are overwritten) -->
 ## Work orders
 
-_Generated 2026-11-18T18:23:20.320Z from the work-order store. Done means verified and recorded; the live view is GregLite._
+_Generated 2026-11-18T20:29:37.448Z from the work-order store. Done means verified and recorded; the live view is GregLite._
 
 **Project:** ganglion (GANGLION, infra)
 
@@ -39,9 +39,11 @@ None.
 
 ### Recently recorded (last 30 days)
 
-- 2026-11-18 `wo-20261117-5ed6543d` **Effector CLIs start with an empty env; read-back output is scrubbed of key shapes** (ganglion) — [duke-of-beans/ganglion-private#88](https://github.com/duke-of-beans/ganglion-private/pull/88) · merged, checks green, deployed
-- 2026-11-18 `wo-20261118-001ed308` **Wire checkLiveness into the heartbeat loop** (ganglion) — [duke-of-beans/ganglion-private#109](https://github.com/duke-of-beans/ganglion-private/pull/109) · merged, checks green, deployed
+- 2026-11-18 `wo-20261118-3e5d3305` **Runner heal provisions runners for new private repos** (ganglion) — [duke-of-beans/ganglion-private#111](https://github.com/duke-of-beans/ganglion-private/pull/111) · merged, checks green, deployed
+- 2026-11-18 `wo-20261118-ee3f3f81` **Runner tool: one provisioning run at a time** (ganglion) — [duke-of-beans/ganglion-private#112](https://github.com/duke-of-beans/ganglion-private/pull/112) · merged, checks green, deployed
 - 2026-11-18 `wo-20261118-a8292c7b` **benchmark_observations.model_source accepts requested / engine_reported (replay-eval rows)** (ganglion) — [duke-of-beans/ganglion-private#107](https://github.com/duke-of-beans/ganglion-private/pull/107) · merged, checks green, deployed
+- 2026-11-18 `wo-20261118-001ed308` **Wire checkLiveness into the heartbeat loop** (ganglion) — [duke-of-beans/ganglion-private#109](https://github.com/duke-of-beans/ganglion-private/pull/109) · merged, checks green, deployed
+- 2026-11-18 `wo-20261117-5ed6543d` **Effector CLIs start with an empty env; read-back output is scrubbed of key shapes** (ganglion) — [duke-of-beans/ganglion-private#88](https://github.com/duke-of-beans/ganglion-private/pull/88) · merged, checks green, deployed
 - 2026-11-18 `wo-20261117-0768dfb0` **Replay evals P2: first set (Gregore-private, 20 tasks) and baseline of OpenCode + Claude lanes** (ganglion) — [duke-of-beans/ganglion-private#93](https://github.com/duke-of-beans/ganglion-private/pull/93), [duke-of-beans/ganglion-private#106](https://github.com/duke-of-beans/ganglion-private/pull/106) · merged, checks green, deployed
 - 2026-11-18 `wo-20261118-ca89bbb9` **Replay evals: freeze receipts name why mining skipped orders (plane HTTP reasons)** (ganglion) — [duke-of-beans/ganglion-private#104](https://github.com/duke-of-beans/ganglion-private/pull/104) · merged, checks green, deployed
 - 2026-11-18 `wo-20261118-c6a25822` **Enforce dispatch signatures by tier; mechanical safeword.discovery-scan action class** (ganglion) — [duke-of-beans/ganglion-private#96](https://github.com/duke-of-beans/ganglion-private/pull/96) · merged, checks green, deployed
@@ -76,5 +78,5 @@ None.
 - 2026-11-14 `wo-20261011-68863323` **Self-hosted GitHub Actions runner on Sentinel for the work-order gate (stop paying for Actions minutes)** (ganglion) — [duke-of-beans/easter-agency#23](https://github.com/duke-of-beans/easter-agency/pull/23), [duke-of-beans/ganglion-private#57](https://github.com/duke-of-beans/ganglion-private/pull/57) · merged; David accepted it as is despite: duke-of-beans/ganglion-private#57 checks failed (gate)
 - 2026-11-13 `wo-20261011-8a2f8319` **Land greg-backend self-hosted gate + CI workflow PR (#44)** (ganglion) — [duke-of-beans/ops-context#34](https://github.com/duke-of-beans/ops-context/pull/34) · merged, checks green
 
-<!-- work-orders:recorded wo-20261011-68863323 wo-20261011-8a2f8319 wo-20261115-0fdda381 wo-20261115-182038b2 wo-20261115-3198554a wo-20261115-35a8ab3f wo-20261115-6a635cd0 wo-20261115-f160b884 wo-20261117-0741f7d4 wo-20261117-0768dfb0 wo-20261117-542aaf69 wo-20261117-59d77b1f wo-20261117-5cf5d07b wo-20261117-5ed6543d wo-20261117-64f09cd8 wo-20261117-876b99fb wo-20261117-91a2e289 wo-20261117-9c58bd1c wo-20261117-a5a5a4ad wo-20261117-b22f7044 wo-20261117-c519c2a6 wo-20261117-c5b5e72a wo-20261117-c85d4a83 wo-20261117-e8899da2 wo-20261117-eec95b81 wo-20261117-ffa284d3 wo-20261117-fff1fd95 wo-20261118-001ed308 wo-20261118-4356f14c wo-20261118-99bcf068 wo-20261118-a8292c7b wo-20261118-c6a25822 wo-20261118-ca89bbb9 wo-20261118-de533298 wo-20261118-f25f7b7c wo-20261118-f4e21ca3 -->
+<!-- work-orders:recorded wo-20261011-68863323 wo-20261011-8a2f8319 wo-20261115-0fdda381 wo-20261115-182038b2 wo-20261115-3198554a wo-20261115-35a8ab3f wo-20261115-6a635cd0 wo-20261115-f160b884 wo-20261117-0741f7d4 wo-20261117-0768dfb0 wo-20261117-542aaf69 wo-20261117-59d77b1f wo-20261117-5cf5d07b wo-20261117-5ed6543d wo-20261117-64f09cd8 wo-20261117-876b99fb wo-20261117-91a2e289 wo-20261117-9c58bd1c wo-20261117-a5a5a4ad wo-20261117-b22f7044 wo-20261117-c519c2a6 wo-20261117-c5b5e72a wo-20261117-c85d4a83 wo-20261117-e8899da2 wo-20261117-eec95b81 wo-20261117-ffa284d3 wo-20261117-fff1fd95 wo-20261118-001ed308 wo-20261118-3e5d3305 wo-20261118-4356f14c wo-20261118-99bcf068 wo-20261118-a8292c7b wo-20261118-c6a25822 wo-20261118-ca89bbb9 wo-20261118-de533298 wo-20261118-ee3f3f81 wo-20261118-f25f7b7c wo-20261118-f4e21ca3 -->
 <!-- work-orders:end -->
