@@ -2,12 +2,12 @@
 
 Status: infra
 Last Updated: 2026-11-18
-Last Recorded: wo-20261118-f4e21ca3 — Replay evals: PR facts via the plane, base walk, min set size; retire the empty set
+Last Recorded: wo-20261118-99bcf068 — Empty-env part 2: OpenCode and Codex spawns, every config load path, report what existed
 
 <!-- work-orders:begin (generated from portfolio.orders by the record step; edits inside this block are overwritten) -->
 ## Work orders
 
-_Generated 2026-11-18T09:19:22.898Z from the work-order store. Done means verified and recorded; the live view is GregLite._
+_Generated 2026-11-18T09:29:30.577Z from the work-order store. Done means verified and recorded; the live view is GregLite._
 
 **Project:** ganglion (GANGLION, infra)
 
@@ -20,7 +20,6 @@ _Generated 2026-11-18T09:19:22.898Z from the work-order store. Done means verifi
 
 | Order | Project | State | Title | Updated |
 |---|---|---|---|---|
-| `wo-20261118-99bcf068` | ganglion | dispatched | Empty-env part 2: OpenCode and Codex spawns, every config load path, report what existed | 2026-11-18 |
 | `wo-20261118-1fc04028` | ganglion | drafted | Sandbox security posture and command policy for every GANGLION lane (borrowed from YC QM) | 2026-11-18 |
 | `wo-20261117-ce327c83` | ganglion | drafted | Sentinel router checkout follows main (git-plane reconcile) | 2026-11-17 |
 | `wo-20261106-a8af50fa` | ganglion | drafted | Trim OpenCode prompt weight per GANGLION dispatch | 2026-11-06 |
@@ -35,6 +34,7 @@ None.
 
 ### Recently recorded (last 30 days)
 
+- 2026-11-18 `wo-20261118-99bcf068` **Empty-env part 2: OpenCode and Codex spawns, every config load path, report what existed** (ganglion) — [duke-of-beans/ganglion-private#95](https://github.com/duke-of-beans/ganglion-private/pull/95) · merged, checks green, deployed
 - 2026-11-18 `wo-20261118-f4e21ca3` **Replay evals: PR facts via the plane, base walk, min set size; retire the empty set** (ganglion) — [duke-of-beans/ganglion-private#94](https://github.com/duke-of-beans/ganglion-private/pull/94) · merged, checks green, deployed
 - 2026-11-18 `wo-20261118-de533298` **Effector honours the deploy-step drain marker (ganglion-private half of the deploy drain)** (ganglion) — [duke-of-beans/ganglion-private#92](https://github.com/duke-of-beans/ganglion-private/pull/92) · merged, checks green, deployed
 - 2026-11-18 `wo-20261117-542aaf69` **G7 WSL lane: take full repo jobs (Claude lane, more slots, per-worktree locks)** (ganglion) — every child order is verified, recorded, cancelled or superseded
@@ -63,5 +63,5 @@ None.
 - 2026-11-14 `wo-20261011-68863323` **Self-hosted GitHub Actions runner on Sentinel for the work-order gate (stop paying for Actions minutes)** (ganglion) — [duke-of-beans/easter-agency#23](https://github.com/duke-of-beans/easter-agency/pull/23), [duke-of-beans/ganglion-private#57](https://github.com/duke-of-beans/ganglion-private/pull/57) · merged; David accepted it as is despite: duke-of-beans/ganglion-private#57 checks failed (gate)
 - 2026-11-13 `wo-20261011-8a2f8319` **Land greg-backend self-hosted gate + CI workflow PR (#44)** (ganglion) — [duke-of-beans/ops-context#34](https://github.com/duke-of-beans/ops-context/pull/34) · merged, checks green
 
-<!-- work-orders:recorded wo-20261011-68863323 wo-20261011-8a2f8319 wo-20261115-0fdda381 wo-20261115-182038b2 wo-20261115-3198554a wo-20261115-35a8ab3f wo-20261115-6a635cd0 wo-20261115-f160b884 wo-20261117-0741f7d4 wo-20261117-542aaf69 wo-20261117-59d77b1f wo-20261117-5cf5d07b wo-20261117-64f09cd8 wo-20261117-876b99fb wo-20261117-91a2e289 wo-20261117-9c58bd1c wo-20261117-a5a5a4ad wo-20261117-b22f7044 wo-20261117-c519c2a6 wo-20261117-c5b5e72a wo-20261117-c85d4a83 wo-20261117-e8899da2 wo-20261117-eec95b81 wo-20261117-ffa284d3 wo-20261117-fff1fd95 wo-20261118-de533298 wo-20261118-f4e21ca3 -->
+<!-- work-orders:recorded wo-20261011-68863323 wo-20261011-8a2f8319 wo-20261115-0fdda381 wo-20261115-182038b2 wo-20261115-3198554a wo-20261115-35a8ab3f wo-20261115-6a635cd0 wo-20261115-f160b884 wo-20261117-0741f7d4 wo-20261117-542aaf69 wo-20261117-59d77b1f wo-20261117-5cf5d07b wo-20261117-64f09cd8 wo-20261117-876b99fb wo-20261117-91a2e289 wo-20261117-9c58bd1c wo-20261117-a5a5a4ad wo-20261117-b22f7044 wo-20261117-c519c2a6 wo-20261117-c5b5e72a wo-20261117-c85d4a83 wo-20261117-e8899da2 wo-20261117-eec95b81 wo-20261117-ffa284d3 wo-20261117-fff1fd95 wo-20261118-99bcf068 wo-20261118-de533298 wo-20261118-f4e21ca3 -->
 <!-- work-orders:end -->
