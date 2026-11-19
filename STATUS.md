@@ -2,12 +2,12 @@
 
 Status: infra
 Last Updated: 2026-11-19
-Last Recorded: wo-20261118-e9418cac — Preflight for money and step caps
+Last Recorded: wo-20261119-95086160 — G7 memory: page file, governor, WSL reclaim
 
 <!-- work-orders:begin (generated from portfolio.orders by the record step; edits inside this block are overwritten) -->
 ## Work orders
 
-_Generated 2026-11-19T01:32:42.766Z from the work-order store. Done means verified and recorded; the live view is GregLite._
+_Generated 2026-11-19T02:22:21.367Z from the work-order store. Done means verified and recorded; the live view is GregLite._
 
 **Project:** ganglion (GANGLION, infra)
 
@@ -19,7 +19,8 @@ _Generated 2026-11-19T01:32:42.766Z from the work-order store. Done means verifi
 
 | Order | Project | State | Title | Updated |
 |---|---|---|---|---|
-| `wo-20261119-5e1b10b4` | ganglion | drafted | Effector lands its own work: a finished Claude-lane job opens its PR through the git plane at once | 2026-11-19 |
+| `wo-20261119-db0e8b08` | ganglion | drafted | Dispatches go through the router: pick lane and model per job, not a fixed default | 2026-11-19 |
+| `wo-20261119-f6126a1e` | ganglion | drafted | Fix the red provision specs test on ganglion-private main | 2026-11-19 |
 | `wo-20261118-1fc04028` | ganglion | landed | Sandbox security posture and command policy for every GANGLION lane (borrowed from YC QM) | 2026-11-18 |
 | `wo-20261118-0b8ca881` | ganglion | drafted | Sandbox-policy mapping-table consistency test in CI | 2026-11-18 |
 | `wo-20261118-2e0f38c0` | ganglion | drafted | Extend command-policy preflight to claude -p and the cloud lane | 2026-11-18 |
@@ -36,9 +37,11 @@ None.
 
 ### Recently recorded (last 30 days)
 
-- 2026-11-19 `wo-20261118-7bea89f4` **Wire sandbox-policy preflight() into the OpenCode lane** (ganglion) — [duke-of-beans/ganglion-private#108](https://github.com/duke-of-beans/ganglion-private/pull/108), [duke-of-beans/ganglion-private#116](https://github.com/duke-of-beans/ganglion-private/pull/116) · merged, checks green, deployed
 - 2026-11-19 `wo-20261118-e9418cac` **Preflight for money and step caps** (ganglion) — [duke-of-beans/ganglion-private#110](https://github.com/duke-of-beans/ganglion-private/pull/110) · merged, checks green, deployed
+- 2026-11-19 `wo-20261119-5e1b10b4` **Effector lands its own work: a finished Claude-lane job opens its PR through the git plane at once** (ganglion) — [duke-of-beans/ganglion-private#118](https://github.com/duke-of-beans/ganglion-private/pull/118) · merged, checks green, deployed
+- 2026-11-19 `wo-20261119-95086160` **G7 memory: page file, governor, WSL reclaim** (ganglion) — [duke-of-beans/ganglion-private#120](https://github.com/duke-of-beans/ganglion-private/pull/120), [duke-of-beans/ganglion-private#121](https://github.com/duke-of-beans/ganglion-private/pull/121) · merged, checks green, deployed
 - 2026-11-19 `wo-20261119-65e188e4` **G7 WSL task restarts itself** (ganglion) — [duke-of-beans/ganglion-private#117](https://github.com/duke-of-beans/ganglion-private/pull/117) · merged, checks green, deployed
+- 2026-11-19 `wo-20261118-7bea89f4` **Wire sandbox-policy preflight() into the OpenCode lane** (ganglion) — [duke-of-beans/ganglion-private#108](https://github.com/duke-of-beans/ganglion-private/pull/108), [duke-of-beans/ganglion-private#116](https://github.com/duke-of-beans/ganglion-private/pull/116) · merged, checks green, deployed
 - 2026-11-19 `wo-20261118-b3b7942d` **Effector restarts must not orphan running work (drain on G7 WSL; discovery scan waits on its lock)** (ganglion) — [duke-of-beans/Gregore-private#1015](https://github.com/duke-of-beans/Gregore-private/pull/1015), [duke-of-beans/ganglion-private#101](https://github.com/duke-of-beans/ganglion-private/pull/101) · merged, checks green, deployed
 - 2026-11-18 `wo-20261118-070b649b` **Yokoten: worker error fix from gregore** (ganglion) — [duke-of-beans/ganglion-private#114](https://github.com/duke-of-beans/ganglion-private/pull/114) · merged, checks green, deployed
 - 2026-11-18 `wo-20261118-22391935` **Runner tool: remove command and rename migration** (ganglion) — [duke-of-beans/ganglion-private#113](https://github.com/duke-of-beans/ganglion-private/pull/113) · merged, checks green, deployed
@@ -81,5 +84,5 @@ None.
 - 2026-11-14 `wo-20261011-68863323` **Self-hosted GitHub Actions runner on Sentinel for the work-order gate (stop paying for Actions minutes)** (ganglion) — [duke-of-beans/easter-agency#23](https://github.com/duke-of-beans/easter-agency/pull/23), [duke-of-beans/ganglion-private#57](https://github.com/duke-of-beans/ganglion-private/pull/57) · merged; David accepted it as is despite: duke-of-beans/ganglion-private#57 checks failed (gate)
 - 2026-11-13 `wo-20261011-8a2f8319` **Land greg-backend self-hosted gate + CI workflow PR (#44)** (ganglion) — [duke-of-beans/ops-context#34](https://github.com/duke-of-beans/ops-context/pull/34) · merged, checks green
 
-<!-- work-orders:recorded wo-20261011-68863323 wo-20261011-8a2f8319 wo-20261115-0fdda381 wo-20261115-182038b2 wo-20261115-3198554a wo-20261115-35a8ab3f wo-20261115-6a635cd0 wo-20261115-f160b884 wo-20261117-0741f7d4 wo-20261117-0768dfb0 wo-20261117-542aaf69 wo-20261117-59d77b1f wo-20261117-5cf5d07b wo-20261117-5ed6543d wo-20261117-64f09cd8 wo-20261117-876b99fb wo-20261117-91a2e289 wo-20261117-9c58bd1c wo-20261117-a5a5a4ad wo-20261117-b22f7044 wo-20261117-c519c2a6 wo-20261117-c5b5e72a wo-20261117-c85d4a83 wo-20261117-e8899da2 wo-20261117-eec95b81 wo-20261117-ffa284d3 wo-20261117-fff1fd95 wo-20261118-001ed308 wo-20261118-070b649b wo-20261118-22391935 wo-20261118-3e5d3305 wo-20261118-4356f14c wo-20261118-7bea89f4 wo-20261118-99bcf068 wo-20261118-a8292c7b wo-20261118-b3b7942d wo-20261118-c6a25822 wo-20261118-ca89bbb9 wo-20261118-de533298 wo-20261118-e9418cac wo-20261118-ee3f3f81 wo-20261118-f25f7b7c wo-20261118-f4e21ca3 wo-20261119-65e188e4 -->
+<!-- work-orders:recorded wo-20261011-68863323 wo-20261011-8a2f8319 wo-20261115-0fdda381 wo-20261115-182038b2 wo-20261115-3198554a wo-20261115-35a8ab3f wo-20261115-6a635cd0 wo-20261115-f160b884 wo-20261117-0741f7d4 wo-20261117-0768dfb0 wo-20261117-542aaf69 wo-20261117-59d77b1f wo-20261117-5cf5d07b wo-20261117-5ed6543d wo-20261117-64f09cd8 wo-20261117-876b99fb wo-20261117-91a2e289 wo-20261117-9c58bd1c wo-20261117-a5a5a4ad wo-20261117-b22f7044 wo-20261117-c519c2a6 wo-20261117-c5b5e72a wo-20261117-c85d4a83 wo-20261117-e8899da2 wo-20261117-eec95b81 wo-20261117-ffa284d3 wo-20261117-fff1fd95 wo-20261118-001ed308 wo-20261118-070b649b wo-20261118-22391935 wo-20261118-3e5d3305 wo-20261118-4356f14c wo-20261118-7bea89f4 wo-20261118-99bcf068 wo-20261118-a8292c7b wo-20261118-b3b7942d wo-20261118-c6a25822 wo-20261118-ca89bbb9 wo-20261118-de533298 wo-20261118-e9418cac wo-20261118-ee3f3f81 wo-20261118-f25f7b7c wo-20261118-f4e21ca3 wo-20261119-5e1b10b4 wo-20261119-65e188e4 wo-20261119-95086160 -->
 <!-- work-orders:end -->
