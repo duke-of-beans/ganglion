@@ -2,18 +2,19 @@
 
 Status: infra
 Last Updated: 2026-11-20
-Last Recorded: wo-20261119-66421506 — Sentinel memory governor (dynamic, rank-based, like G7)
+Last Recorded: wo-20261120-88dc5182 — Fleet model picks from public benchmarks + confirm run
 
 <!-- work-orders:begin (generated from portfolio.orders by the record step; edits inside this block are overwritten) -->
 ## Work orders
 
-_Generated 2026-11-20T00:31:19.635Z from the work-order store. Done means verified and recorded; the live view is GregLite._
+_Generated 2026-11-20T03:23:50.413Z from the work-order store. Done means verified and recorded; the live view is GregLite._
 
 **Project:** ganglion (GANGLION, infra)
 
 ### Waiting on David
 
 - `wo-20261118-4b298de0` **git-credential-cortex rejects git-plane tokens that contain a dot** (ganglion) — kicked up: "duke-of-beans/Gregore-private#1020 clean-context review asks for changes: The source regex in ops/git-plane/git-credential-cortex is not modified, so dotted to…"
+- `wo-20261120-91ac000a` **Privacy by lane: regular fleet runs drop zero-retention** (ganglion) — kicked up: "duke-of-beans/ops-context#206 clean-context review asks for changes: PR only modifies documentation files; none of the in-scope files (config/repo-privacy.json…"
 
 ### In flight
 
@@ -33,6 +34,8 @@ None.
 
 ### Recently recorded (last 30 days)
 
+- 2026-11-20 `wo-20261120-88dc5182` **Fleet model picks from public benchmarks + confirm run** (ganglion) — [duke-of-beans/ganglion-private#144](https://github.com/duke-of-beans/ganglion-private/pull/144), [duke-of-beans/ganglion-private#145](https://github.com/duke-of-beans/ganglion-private/pull/145) · merged, checks green, deployed
+- 2026-11-20 `wo-20261120-94fc6df3` **Fleet default model: DeepSeek V4.1 Flash** (ganglion) — [duke-of-beans/ganglion-private#142](https://github.com/duke-of-beans/ganglion-private/pull/142), [duke-of-beans/ops-context#205](https://github.com/duke-of-beans/ops-context/pull/205) · merged, checks green
 - 2026-11-20 `wo-20261119-66421506` **Sentinel memory governor (dynamic, rank-based, like G7)** (ganglion) — [duke-of-beans/ganglion-private#141](https://github.com/duke-of-beans/ganglion-private/pull/141), [duke-of-beans/ops-context#199](https://github.com/duke-of-beans/ops-context/pull/199) · merged, checks green
 - 2026-11-19 `wo-20261119-740b54cc` **Unplanned: test: provision fail-closed spec allows the runner's failure screenshot** (ganglion) — [duke-of-beans/ganglion-private#133](https://github.com/duke-of-beans/ganglion-private/pull/133) · merged, checks green, deployed
 - 2026-11-19 `wo-20261118-1fc04028` **Sandbox security posture and command policy for every GANGLION lane (borrowed from YC QM)** (ganglion) — [duke-of-beans/ganglion-private#99](https://github.com/duke-of-beans/ganglion-private/pull/99) · every child order is verified, recorded, cancelled or superseded
@@ -81,8 +84,6 @@ None.
 - 2026-11-17 `wo-20261117-b22f7044` **Effector: scratch off tmpfs, per-dispatch TMPDIR, write gate, empty output fails** (ganglion) — [duke-of-beans/ganglion-private#76](https://github.com/duke-of-beans/ganglion-private/pull/76) · merged, checks green, deployed
 - 2026-11-15 `wo-20261115-182038b2` **Yokoten: environment fix from gregore** (ganglion) — [duke-of-beans/ganglion#24](https://github.com/duke-of-beans/ganglion/pull/24) · merged, checks green
 - 2026-11-15 `wo-20261115-6a635cd0` **MAX usage sign-in without a terminal (Sentinel reader)** (ganglion) — [duke-of-beans/ganglion-private#74](https://github.com/duke-of-beans/ganglion-private/pull/74), [duke-of-beans/Gregore-private#904](https://github.com/duke-of-beans/Gregore-private/pull/904) · merged, checks green, deployed
-- 2026-11-15 `wo-20261115-0fdda381` **MAX plan usage reader on Sentinel** (ganglion) — [duke-of-beans/ganglion-private#73](https://github.com/duke-of-beans/ganglion-private/pull/73) · merged, checks green, deployed
-- 2026-11-15 `wo-20261115-f160b884` **OpenCode lane: allow harmless shell glue so runs aren't killed** (ganglion) — [duke-of-beans/ganglion-private#71](https://github.com/duke-of-beans/ganglion-private/pull/71) · merged, checks green, deployed
 
-<!-- work-orders:recorded wo-20261115-0fdda381 wo-20261115-182038b2 wo-20261115-6a635cd0 wo-20261115-f160b884 wo-20261117-0741f7d4 wo-20261117-0768dfb0 wo-20261117-542aaf69 wo-20261117-59d77b1f wo-20261117-5cf5d07b wo-20261117-5ed6543d wo-20261117-64f09cd8 wo-20261117-876b99fb wo-20261117-91a2e289 wo-20261117-9c58bd1c wo-20261117-a5a5a4ad wo-20261117-b22f7044 wo-20261117-c519c2a6 wo-20261117-c5b5e72a wo-20261117-c85d4a83 wo-20261117-e8899da2 wo-20261117-eec95b81 wo-20261117-ffa284d3 wo-20261117-fff1fd95 wo-20261118-001ed308 wo-20261118-070b649b wo-20261118-0b8ca881 wo-20261118-1fc04028 wo-20261118-22391935 wo-20261118-2e0f38c0 wo-20261118-3e5d3305 wo-20261118-4356f14c wo-20261118-7bea89f4 wo-20261118-99bcf068 wo-20261118-a8292c7b wo-20261118-b3b7942d wo-20261118-c6a25822 wo-20261118-ca89bbb9 wo-20261118-de533298 wo-20261118-e9418cac wo-20261118-ee3f3f81 wo-20261118-f25f7b7c wo-20261118-f4e21ca3 wo-20261119-5e1b10b4 wo-20261119-65e188e4 wo-20261119-66421506 wo-20261119-740b54cc wo-20261119-805c13c7 wo-20261119-8f343aa5 wo-20261119-95086160 wo-20261119-db0e8b08 -->
+<!-- work-orders:recorded wo-20261115-182038b2 wo-20261115-6a635cd0 wo-20261117-0741f7d4 wo-20261117-0768dfb0 wo-20261117-542aaf69 wo-20261117-59d77b1f wo-20261117-5cf5d07b wo-20261117-5ed6543d wo-20261117-64f09cd8 wo-20261117-876b99fb wo-20261117-91a2e289 wo-20261117-9c58bd1c wo-20261117-a5a5a4ad wo-20261117-b22f7044 wo-20261117-c519c2a6 wo-20261117-c5b5e72a wo-20261117-c85d4a83 wo-20261117-e8899da2 wo-20261117-eec95b81 wo-20261117-ffa284d3 wo-20261117-fff1fd95 wo-20261118-001ed308 wo-20261118-070b649b wo-20261118-0b8ca881 wo-20261118-1fc04028 wo-20261118-22391935 wo-20261118-2e0f38c0 wo-20261118-3e5d3305 wo-20261118-4356f14c wo-20261118-7bea89f4 wo-20261118-99bcf068 wo-20261118-a8292c7b wo-20261118-b3b7942d wo-20261118-c6a25822 wo-20261118-ca89bbb9 wo-20261118-de533298 wo-20261118-e9418cac wo-20261118-ee3f3f81 wo-20261118-f25f7b7c wo-20261118-f4e21ca3 wo-20261119-5e1b10b4 wo-20261119-65e188e4 wo-20261119-66421506 wo-20261119-740b54cc wo-20261119-805c13c7 wo-20261119-8f343aa5 wo-20261119-95086160 wo-20261119-db0e8b08 wo-20261120-88dc5182 wo-20261120-94fc6df3 -->
 <!-- work-orders:end -->
