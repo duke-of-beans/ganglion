@@ -2,12 +2,12 @@
 
 Status: infra
 Last Updated: 2026-11-20
-Last Recorded: wo-20261120-0deeb8d6 — Sentinel GitHub runners: just-in-time, one per queued job
+Last Recorded: wo-20261120-f788858f — Router: no starvation behind locked repos; free locks of rows awaiting confirmation
 
 <!-- work-orders:begin (generated from portfolio.orders by the record step; edits inside this block are overwritten) -->
 ## Work orders
 
-_Generated 2026-11-20T05:23:05.859Z from the work-order store. Done means verified and recorded; the live view is GregLite._
+_Generated 2026-11-20T05:32:27.071Z from the work-order store. Done means verified and recorded; the live view is GregLite._
 
 **Project:** ganglion (GANGLION, infra)
 
@@ -22,8 +22,6 @@ _Generated 2026-11-20T05:23:05.859Z from the work-order store. Done means verifi
 
 | Order | Project | State | Title | Updated |
 |---|---|---|---|---|
-| `wo-20261120-9c377f35` | ganglion | dispatched | Furnace as a GANGLION effector, third rung of the ladder | 2026-11-20 |
-| `wo-20261120-f788858f` | ganglion | in_progress | Router: no starvation behind locked repos; free locks of rows awaiting confirmation | 2026-11-20 |
 | `wo-20261119-f6126a1e` | ganglion | drafted | Fix the red provision specs test on ganglion-private main | 2026-11-19 |
 | `wo-20261117-ce327c83` | ganglion | drafted | Sentinel router checkout follows main (git-plane reconcile) | 2026-11-17 |
 | `wo-20261106-a8af50fa` | ganglion | drafted | Trim OpenCode prompt weight per GANGLION dispatch | 2026-11-06 |
@@ -39,6 +37,8 @@ None.
 ### Recently recorded (last 30 days)
 
 - 2026-11-20 `wo-20261120-0deeb8d6` **Sentinel GitHub runners: just-in-time, one per queued job** (ganglion) — [duke-of-beans/ganglion-private#149](https://github.com/duke-of-beans/ganglion-private/pull/149), [duke-of-beans/ganglion-private#152](https://github.com/duke-of-beans/ganglion-private/pull/152) · merged, checks green, deployed
+- 2026-11-20 `wo-20261120-9c377f35` **Furnace as a GANGLION effector, third rung of the ladder** (ganglion) — [duke-of-beans/ganglion-private#148](https://github.com/duke-of-beans/ganglion-private/pull/148), [duke-of-beans/greg-backend#67](https://github.com/duke-of-beans/greg-backend/pull/67), [duke-of-beans/ganglion-private#150](https://github.com/duke-of-beans/ganglion-private/pull/150), [duke-of-beans/ganglion-private#151](https://github.com/duke-of-beans/ganglion-private/pull/151), [duke-of-beans/ops-context#213](https://github.com/duke-of-beans/ops-context/pull/213) · merged, checks green
+- 2026-11-20 `wo-20261120-f788858f` **Router: no starvation behind locked repos; free locks of rows awaiting confirmation** (ganglion) — [duke-of-beans/greg-backend#66](https://github.com/duke-of-beans/greg-backend/pull/66) · merged, checks green, deployed
 - 2026-11-20 `wo-20261120-5afd84bd` **Effector honours action_params.land = hold (review before landing)** (ganglion) — [duke-of-beans/ganglion-private#147](https://github.com/duke-of-beans/ganglion-private/pull/147) · merged, checks green, deployed
 - 2026-11-20 `wo-20261120-c1a24f1c` **Router auto-continues stopped fleet jobs from their PARTIAL branch** (ganglion) — [duke-of-beans/greg-backend#65](https://github.com/duke-of-beans/greg-backend/pull/65) · merged, checks green, deployed
 - 2026-11-20 `wo-20261120-94fc6df3` **Fleet default model: DeepSeek V4.1 Flash** (ganglion) — [duke-of-beans/ganglion-private#142](https://github.com/duke-of-beans/ganglion-private/pull/142), [duke-of-beans/ops-context#205](https://github.com/duke-of-beans/ops-context/pull/205) · merged, checks green
@@ -86,8 +86,6 @@ None.
 - 2026-11-17 `wo-20261117-91a2e289` **Bake-off Qwen4-Max vs Kimi for the OpenCode lane, swap if it wins** (ganglion) — [duke-of-beans/ganglion-private#81](https://github.com/duke-of-beans/ganglion-private/pull/81) · merged, checks green, deployed
 - 2026-11-17 `wo-20261117-5cf5d07b` **Router: pending reaper must not hold rows waiting on a busy capable effector** (ganglion) — [duke-of-beans/home#57](https://github.com/duke-of-beans/home/pull/57) · merged, checks green, deployed
 - 2026-11-17 `wo-20261117-64f09cd8` **Router: up to N concurrent jobs per repo (each has its own worktree and branch)** (ganglion) — [duke-of-beans/greg-backend#58](https://github.com/duke-of-beans/greg-backend/pull/58) · merged, checks green, deployed
-- 2026-11-17 `wo-20261117-fff1fd95` **Effector: per-repo clone/fetch mutex for parallel jobs; OpenCode prompt contract** (ganglion) — [duke-of-beans/ganglion-private#82](https://github.com/duke-of-beans/ganglion-private/pull/82) · merged, checks green, deployed
-- 2026-11-17 `wo-20261117-e8899da2` **Loop-safe admission and one-output-per-cause for chained dispatches (from slack-agent-mesh)** (ganglion) — [duke-of-beans/ganglion-private#77](https://github.com/duke-of-beans/ganglion-private/pull/77) · merged, checks green, deployed
 
-<!-- work-orders:recorded wo-20261117-0741f7d4 wo-20261117-0768dfb0 wo-20261117-542aaf69 wo-20261117-59d77b1f wo-20261117-5cf5d07b wo-20261117-5ed6543d wo-20261117-64f09cd8 wo-20261117-876b99fb wo-20261117-91a2e289 wo-20261117-9c58bd1c wo-20261117-a5a5a4ad wo-20261117-c519c2a6 wo-20261117-c5b5e72a wo-20261117-c85d4a83 wo-20261117-e8899da2 wo-20261117-eec95b81 wo-20261117-ffa284d3 wo-20261117-fff1fd95 wo-20261118-001ed308 wo-20261118-070b649b wo-20261118-0b8ca881 wo-20261118-1fc04028 wo-20261118-22391935 wo-20261118-2e0f38c0 wo-20261118-3e5d3305 wo-20261118-4356f14c wo-20261118-7bea89f4 wo-20261118-99bcf068 wo-20261118-a8292c7b wo-20261118-b3b7942d wo-20261118-c6a25822 wo-20261118-ca89bbb9 wo-20261118-de533298 wo-20261118-e9418cac wo-20261118-ee3f3f81 wo-20261118-f25f7b7c wo-20261118-f4e21ca3 wo-20261119-5e1b10b4 wo-20261119-65e188e4 wo-20261119-66421506 wo-20261119-740b54cc wo-20261119-805c13c7 wo-20261119-8f343aa5 wo-20261119-95086160 wo-20261119-db0e8b08 wo-20261120-0deeb8d6 wo-20261120-5afd84bd wo-20261120-88dc5182 wo-20261120-94fc6df3 wo-20261120-c1a24f1c -->
+<!-- work-orders:recorded wo-20261117-0741f7d4 wo-20261117-0768dfb0 wo-20261117-542aaf69 wo-20261117-59d77b1f wo-20261117-5cf5d07b wo-20261117-5ed6543d wo-20261117-64f09cd8 wo-20261117-876b99fb wo-20261117-91a2e289 wo-20261117-9c58bd1c wo-20261117-a5a5a4ad wo-20261117-c519c2a6 wo-20261117-c5b5e72a wo-20261117-c85d4a83 wo-20261117-eec95b81 wo-20261117-ffa284d3 wo-20261118-001ed308 wo-20261118-070b649b wo-20261118-0b8ca881 wo-20261118-1fc04028 wo-20261118-22391935 wo-20261118-2e0f38c0 wo-20261118-3e5d3305 wo-20261118-4356f14c wo-20261118-7bea89f4 wo-20261118-99bcf068 wo-20261118-a8292c7b wo-20261118-b3b7942d wo-20261118-c6a25822 wo-20261118-ca89bbb9 wo-20261118-de533298 wo-20261118-e9418cac wo-20261118-ee3f3f81 wo-20261118-f25f7b7c wo-20261118-f4e21ca3 wo-20261119-5e1b10b4 wo-20261119-65e188e4 wo-20261119-66421506 wo-20261119-740b54cc wo-20261119-805c13c7 wo-20261119-8f343aa5 wo-20261119-95086160 wo-20261119-db0e8b08 wo-20261120-0deeb8d6 wo-20261120-5afd84bd wo-20261120-88dc5182 wo-20261120-94fc6df3 wo-20261120-9c377f35 wo-20261120-c1a24f1c wo-20261120-f788858f -->
 <!-- work-orders:end -->
