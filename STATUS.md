@@ -1,13 +1,13 @@
 # GANGLION — STATUS
 
 Status: infra
-Last Updated: 2026-11-20
-Last Recorded: wo-20261120-2a0aeaa1 — All sessions dispatch the same way: opencode rows drop claude-code (trigger + note)
+Last Updated: 2026-11-21
+Last Recorded: wo-20261121-411c8a3d — Record: Claude MAX stays, upgrade at first compound TEA client
 
 <!-- work-orders:begin (generated from portfolio.orders by the record step; edits inside this block are overwritten) -->
 ## Work orders
 
-_Generated 2026-11-20T20:34:35.972Z from the work-order store. Done means verified and recorded; the live view is GregLite._
+_Generated 2026-11-21T10:22:34.607Z from the work-order store. Done means verified and recorded; the live view is GregLite._
 
 **Project:** ganglion (GANGLION, infra)
 
@@ -23,6 +23,7 @@ _Generated 2026-11-20T20:34:35.972Z from the work-order store. Done means verifi
 
 | Order | Project | State | Title | Updated |
 |---|---|---|---|---|
+| `wo-20261121-40133c93` | ganglion | drafted | Yokoten: ambiguous spec fix from gregore | 2026-11-21 |
 | `wo-20261120-7552f300` | ganglion | in_progress | Deterministic+agent clean-context reviewer (OpenCodeReview pattern) | 2026-11-20 |
 | `wo-20261120-7e061b2b` | ganglion | blocked | Meta-first routing: self-healing and infra rows always go first | 2026-11-20 |
 | `wo-20261119-f6126a1e` | ganglion | blocked | Fix the red provision specs test on ganglion-private main | 2026-11-20 |
@@ -39,14 +40,15 @@ None.
 
 ### Recently recorded (last 30 days)
 
+- 2026-11-21 `wo-20261121-411c8a3d` **Record: Claude MAX stays, upgrade at first compound TEA client** (ganglion) — [duke-of-beans/ops-context#228](https://github.com/duke-of-beans/ops-context/pull/228) · merged, checks green
 - 2026-11-20 `wo-20261120-286d38b9` **OpenCode retries always require a Linux machine (recorded in repo)** (ganglion) — [duke-of-beans/ganglion-private#167](https://github.com/duke-of-beans/ganglion-private/pull/167) · merged, checks green, deployed
-- 2026-11-20 `wo-20261120-2a0aeaa1` **All sessions dispatch the same way: opencode rows drop claude-code (trigger + note)** (ganglion) — [duke-of-beans/ops-context#219](https://github.com/duke-of-beans/ops-context/pull/219) · merged, checks green
-- 2026-11-20 `wo-20261120-35dea016` **Prompt-contract check must not refuse negated mentions** (ganglion) — [duke-of-beans/ganglion-private#158](https://github.com/duke-of-beans/ganglion-private/pull/158) · merged, checks green, deployed
 - 2026-11-20 `wo-20261120-40b52cc7` **Effector tags a spent Console lane so failed work restarts in another lane at once** (ganglion) — [duke-of-beans/ganglion-private#166](https://github.com/duke-of-beans/ganglion-private/pull/166) · merged, checks green, deployed
-- 2026-11-20 `wo-20261120-4d3f4f6e` **Output compression on effector lanes (caveman), eval-gated** (ganglion) — [duke-of-beans/ganglion-private#156](https://github.com/duke-of-beans/ganglion-private/pull/156), [duke-of-beans/ganglion-private#157](https://github.com/duke-of-beans/ganglion-private/pull/157), [duke-of-beans/ganglion-private#159](https://github.com/duke-of-beans/ganglion-private/pull/159) · merged, checks green, deployed
+- 2026-11-20 `wo-20261120-afeca958` **Native G7 effector: dependency preflight fails on every job** (ganglion) — [duke-of-beans/ganglion-private#164](https://github.com/duke-of-beans/ganglion-private/pull/164) · merged, checks green, deployed
 - 2026-11-20 `wo-20261120-671bc754` **Fleet watchdog: monitor plus safe self-fixes for the dispatch fleet** (ganglion) — [duke-of-beans/ganglion-private#163](https://github.com/duke-of-beans/ganglion-private/pull/163) · merged, checks green, deployed
 - 2026-11-20 `wo-20261120-a2a261b5` **Per-lane/agent rolling budgets + actor audit (Paperclip pattern)** (ganglion) — [duke-of-beans/ganglion-private#162](https://github.com/duke-of-beans/ganglion-private/pull/162) · merged, checks green, deployed
-- 2026-11-20 `wo-20261120-afeca958` **Native G7 effector: dependency preflight fails on every job** (ganglion) — [duke-of-beans/ganglion-private#164](https://github.com/duke-of-beans/ganglion-private/pull/164) · merged, checks green, deployed
+- 2026-11-20 `wo-20261120-4d3f4f6e` **Output compression on effector lanes (caveman), eval-gated** (ganglion) — [duke-of-beans/ganglion-private#156](https://github.com/duke-of-beans/ganglion-private/pull/156), [duke-of-beans/ganglion-private#157](https://github.com/duke-of-beans/ganglion-private/pull/157), [duke-of-beans/ganglion-private#159](https://github.com/duke-of-beans/ganglion-private/pull/159) · merged, checks green, deployed
+- 2026-11-20 `wo-20261120-2a0aeaa1` **All sessions dispatch the same way: opencode rows drop claude-code (trigger + note)** (ganglion) — [duke-of-beans/ops-context#219](https://github.com/duke-of-beans/ops-context/pull/219) · merged, checks green
+- 2026-11-20 `wo-20261120-35dea016` **Prompt-contract check must not refuse negated mentions** (ganglion) — [duke-of-beans/ganglion-private#158](https://github.com/duke-of-beans/ganglion-private/pull/158) · merged, checks green, deployed
 - 2026-11-20 `wo-20261120-ef91bd23` **Router: OpenCode rows always require Linux; self-healing work goes first** (ganglion) — [duke-of-beans/greg-backend#71](https://github.com/duke-of-beans/greg-backend/pull/71) · merged, checks green, deployed
 - 2026-11-20 `wo-20261120-e879f843` **Router: re-resolve a row the Max-plan cap rewrites to OpenCode so it requires linux** (ganglion) — [duke-of-beans/greg-backend#69](https://github.com/duke-of-beans/greg-backend/pull/69) · merged, checks green, deployed
 - 2026-11-20 `wo-20261120-bb84dbb5` **Put the live-only ganglion_dispatch triggers into the repo as a migration** (ganglion) — [duke-of-beans/ganglion-private#161](https://github.com/duke-of-beans/ganglion-private/pull/161) · merged, checks green, deployed
@@ -88,7 +90,6 @@ None.
 - 2026-11-18 `wo-20261118-99bcf068` **Empty-env part 2: OpenCode and Codex spawns, every config load path, report what existed** (ganglion) — [duke-of-beans/ganglion-private#95](https://github.com/duke-of-beans/ganglion-private/pull/95) · merged, checks green, deployed
 - 2026-11-18 `wo-20261118-f4e21ca3` **Replay evals: PR facts via the plane, base walk, min set size; retire the empty set** (ganglion) — [duke-of-beans/ganglion-private#94](https://github.com/duke-of-beans/ganglion-private/pull/94) · merged, checks green, deployed
 - 2026-11-18 `wo-20261118-de533298` **Effector honours the deploy-step drain marker (ganglion-private half of the deploy drain)** (ganglion) — [duke-of-beans/ganglion-private#92](https://github.com/duke-of-beans/ganglion-private/pull/92) · merged, checks green, deployed
-- 2026-11-18 `wo-20261117-542aaf69` **G7 WSL lane: take full repo jobs (Claude lane, more slots, per-worktree locks)** (ganglion) — every child order is verified, recorded, cancelled or superseded
 
-<!-- work-orders:recorded wo-20261117-0768dfb0 wo-20261117-542aaf69 wo-20261117-5ed6543d wo-20261118-001ed308 wo-20261118-070b649b wo-20261118-0b8ca881 wo-20261118-1fc04028 wo-20261118-22391935 wo-20261118-2e0f38c0 wo-20261118-3e5d3305 wo-20261118-4356f14c wo-20261118-7bea89f4 wo-20261118-99bcf068 wo-20261118-a8292c7b wo-20261118-b3b7942d wo-20261118-c6a25822 wo-20261118-ca89bbb9 wo-20261118-de533298 wo-20261118-e9418cac wo-20261118-ee3f3f81 wo-20261118-f25f7b7c wo-20261118-f4e21ca3 wo-20261119-5e1b10b4 wo-20261119-65e188e4 wo-20261119-66421506 wo-20261119-740b54cc wo-20261119-805c13c7 wo-20261119-8f343aa5 wo-20261119-95086160 wo-20261119-db0e8b08 wo-20261120-0deeb8d6 wo-20261120-286d38b9 wo-20261120-2a0aeaa1 wo-20261120-35dea016 wo-20261120-40b52cc7 wo-20261120-4d3f4f6e wo-20261120-5afd84bd wo-20261120-671bc754 wo-20261120-88dc5182 wo-20261120-94fc6df3 wo-20261120-9c377f35 wo-20261120-a2a261b5 wo-20261120-afeca958 wo-20261120-bb84dbb5 wo-20261120-c1a24f1c wo-20261120-e2b3c944 wo-20261120-e879f843 wo-20261120-ef91bd23 wo-20261120-f34ef6a6 wo-20261120-f788858f -->
+<!-- work-orders:recorded wo-20261117-0768dfb0 wo-20261117-5ed6543d wo-20261118-001ed308 wo-20261118-070b649b wo-20261118-0b8ca881 wo-20261118-1fc04028 wo-20261118-22391935 wo-20261118-2e0f38c0 wo-20261118-3e5d3305 wo-20261118-4356f14c wo-20261118-7bea89f4 wo-20261118-99bcf068 wo-20261118-a8292c7b wo-20261118-b3b7942d wo-20261118-c6a25822 wo-20261118-ca89bbb9 wo-20261118-de533298 wo-20261118-e9418cac wo-20261118-ee3f3f81 wo-20261118-f25f7b7c wo-20261118-f4e21ca3 wo-20261119-5e1b10b4 wo-20261119-65e188e4 wo-20261119-66421506 wo-20261119-740b54cc wo-20261119-805c13c7 wo-20261119-8f343aa5 wo-20261119-95086160 wo-20261119-db0e8b08 wo-20261120-0deeb8d6 wo-20261120-286d38b9 wo-20261120-2a0aeaa1 wo-20261120-35dea016 wo-20261120-40b52cc7 wo-20261120-4d3f4f6e wo-20261120-5afd84bd wo-20261120-671bc754 wo-20261120-88dc5182 wo-20261120-94fc6df3 wo-20261120-9c377f35 wo-20261120-a2a261b5 wo-20261120-afeca958 wo-20261120-bb84dbb5 wo-20261120-c1a24f1c wo-20261120-e2b3c944 wo-20261120-e879f843 wo-20261120-ef91bd23 wo-20261120-f34ef6a6 wo-20261120-f788858f wo-20261121-411c8a3d -->
 <!-- work-orders:end -->
