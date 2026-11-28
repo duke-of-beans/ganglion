@@ -2,12 +2,12 @@
 
 Status: infra
 Last Updated: 2026-11-28
-Last Recorded: wo-20261128-e38bfc52 — Fleet reports "completed" when a worker made no change and shipped nothing
+Last Recorded: wo-20261128-6f240816 — Fleet runs in repos with no verifier land on the plane's gates instead of holding for David
 
 <!-- work-orders:begin (generated from portfolio.orders by the record step; edits inside this block are overwritten) -->
 ## Work orders
 
-_Generated 2026-11-28T07:48:02.219Z from the work-order store. Done means verified and recorded; the live view is GregLite._
+_Generated 2026-11-28T10:42:28.106Z from the work-order store. Done means verified and recorded; the live view is GregLite._
 
 **Project:** ganglion (GANGLION, infra)
 
@@ -19,8 +19,12 @@ Nothing.
 
 | Order | Project | State | Title | Updated |
 |---|---|---|---|---|
-| `wo-20261120-7e061b2b` | ganglion | blocked | Meta-first routing: self-healing and infra rows always go first | 2026-11-20 |
-| `wo-20261119-f6126a1e` | ganglion | blocked | Fix the red provision specs test on ganglion-private main | 2026-11-20 |
+| `wo-20261128-df485d0d` | ganglion | dispatched | Adopt skills pack + skill activation hook | 2026-11-28 |
+| `wo-20261128-7f920fba` | ganglion | blocked | Declarative lane tiers file (tiers.json pattern) | 2026-11-28 |
+| `wo-20261128-b406f10f` | ganglion | blocked | Savings telemetry: RTK + terse gains into fleet cost records | 2026-11-28 |
+| `wo-20261128-5a6b021d` | ganglion | blocked | Fleet claude lane: allow WebSearch/WebFetch for research jobs | 2026-11-28 |
+| `wo-20261128-46379217` | ganglion | drafted | RTK live on Sentinel effector | 2026-11-28 |
+| `wo-20261128-df47d77f` | ganglion | drafted | Jobs never run in the effector's own checkout | 2026-11-28 |
 | `wo-20261117-ce327c83` | ganglion | drafted | Sentinel router checkout follows main (git-plane reconcile) | 2026-11-17 |
 
 ### Receipts
@@ -33,9 +37,10 @@ None.
 
 ### Recently recorded (last 30 days)
 
+- 2026-11-28 `wo-20261128-6f240816` **Fleet runs in repos with no verifier land on the plane's gates instead of holding for David** (ganglion) — [duke-of-beans/ganglion-private#183](https://github.com/duke-of-beans/ganglion-private/pull/183) · merged, checks green, deployed
+- 2026-11-28 `wo-20261125-dd0e65b9` **Agent skills pack: security-audit-skill, ponytail, impeccable** (ganglion) — [duke-of-beans/ops-context#263](https://github.com/duke-of-beans/ops-context/pull/263) · merged, checks green
 - 2026-11-28 `wo-20261125-744de24f` **RTK token compression on fleet lanes** (ganglion) — [duke-of-beans/ganglion-private#180](https://github.com/duke-of-beans/ganglion-private/pull/180) · merged, checks green, deployed
 - 2026-11-28 `wo-20261125-c2437307` **Evaluate opencode-model-router and caveman for lanes** (ganglion) — [duke-of-beans/ganglion-private#179](https://github.com/duke-of-beans/ganglion-private/pull/179) · merged, checks green, deployed
-- 2026-11-28 `wo-20261125-dd0e65b9` **Agent skills pack: security-audit-skill, ponytail, impeccable** (ganglion) — [duke-of-beans/ops-context#263](https://github.com/duke-of-beans/ops-context/pull/263) · merged, checks green
 - 2026-11-28 `wo-20261128-e38bfc52` **Fleet reports "completed" when a worker made no change and shipped nothing** (ganglion) — [duke-of-beans/ganglion-private#182](https://github.com/duke-of-beans/ganglion-private/pull/182) · merged, checks green, deployed
 - 2026-11-25 `wo-20261125-bc75443a` **Yokoten: missing spec fix from cloud-lane-scratch** (ganglion) — [duke-of-beans/ganglion-private#175](https://github.com/duke-of-beans/ganglion-private/pull/175) · merged, checks green, deployed
 - 2026-11-25 `wo-20261125-6fdbd90f` **Fleet falls back to the Console credit on the Gateway's empty-balance refusal** (ganglion) — [duke-of-beans/ganglion-private#174](https://github.com/duke-of-beans/ganglion-private/pull/174) · merged, checks green, deployed
@@ -82,7 +87,6 @@ None.
 - 2026-11-19 `wo-20261119-95086160` **G7 memory: page file, governor, WSL reclaim** (ganglion) — [duke-of-beans/ganglion-private#120](https://github.com/duke-of-beans/ganglion-private/pull/120), [duke-of-beans/ganglion-private#121](https://github.com/duke-of-beans/ganglion-private/pull/121) · merged, checks green, deployed
 - 2026-11-19 `wo-20261118-e9418cac` **Preflight for money and step caps** (ganglion) — [duke-of-beans/ganglion-private#110](https://github.com/duke-of-beans/ganglion-private/pull/110) · merged, checks green, deployed
 - 2026-11-19 `wo-20261119-65e188e4` **G7 WSL task restarts itself** (ganglion) — [duke-of-beans/ganglion-private#117](https://github.com/duke-of-beans/ganglion-private/pull/117) · merged, checks green, deployed
-- 2026-11-19 `wo-20261118-7bea89f4` **Wire sandbox-policy preflight() into the OpenCode lane** (ganglion) — [duke-of-beans/ganglion-private#108](https://github.com/duke-of-beans/ganglion-private/pull/108), [duke-of-beans/ganglion-private#116](https://github.com/duke-of-beans/ganglion-private/pull/116) · merged, checks green, deployed
 
-<!-- work-orders:recorded wo-20261118-0b8ca881 wo-20261118-1fc04028 wo-20261118-2e0f38c0 wo-20261118-4b298de0 wo-20261118-7bea89f4 wo-20261118-e9418cac wo-20261119-5e1b10b4 wo-20261119-65e188e4 wo-20261119-66421506 wo-20261119-740b54cc wo-20261119-805c13c7 wo-20261119-8f343aa5 wo-20261119-95086160 wo-20261119-db0e8b08 wo-20261120-0deeb8d6 wo-20261120-137423a8 wo-20261120-286d38b9 wo-20261120-2a0aeaa1 wo-20261120-35dea016 wo-20261120-37d32d2e wo-20261120-3dd823e3 wo-20261120-40b52cc7 wo-20261120-4d3f4f6e wo-20261120-5afd84bd wo-20261120-671bc754 wo-20261120-7552f300 wo-20261120-88dc5182 wo-20261120-91ac000a wo-20261120-94fc6df3 wo-20261120-9c377f35 wo-20261120-a2a261b5 wo-20261120-afeca958 wo-20261120-bb84dbb5 wo-20261120-c1a24f1c wo-20261120-e2b3c944 wo-20261120-e879f843 wo-20261120-ef91bd23 wo-20261120-f34ef6a6 wo-20261120-f788858f wo-20261121-40133c93 wo-20261121-411c8a3d wo-20261122-04ab39b5 wo-20261122-c4e7fcf1 wo-20261122-e88ed889 wo-20261125-6fdbd90f wo-20261125-744de24f wo-20261125-bc75443a wo-20261125-c2437307 wo-20261125-dd0e65b9 wo-20261128-e38bfc52 -->
+<!-- work-orders:recorded wo-20261118-0b8ca881 wo-20261118-1fc04028 wo-20261118-2e0f38c0 wo-20261118-4b298de0 wo-20261118-e9418cac wo-20261119-5e1b10b4 wo-20261119-65e188e4 wo-20261119-66421506 wo-20261119-740b54cc wo-20261119-805c13c7 wo-20261119-8f343aa5 wo-20261119-95086160 wo-20261119-db0e8b08 wo-20261120-0deeb8d6 wo-20261120-137423a8 wo-20261120-286d38b9 wo-20261120-2a0aeaa1 wo-20261120-35dea016 wo-20261120-37d32d2e wo-20261120-3dd823e3 wo-20261120-40b52cc7 wo-20261120-4d3f4f6e wo-20261120-5afd84bd wo-20261120-671bc754 wo-20261120-7552f300 wo-20261120-88dc5182 wo-20261120-91ac000a wo-20261120-94fc6df3 wo-20261120-9c377f35 wo-20261120-a2a261b5 wo-20261120-afeca958 wo-20261120-bb84dbb5 wo-20261120-c1a24f1c wo-20261120-e2b3c944 wo-20261120-e879f843 wo-20261120-ef91bd23 wo-20261120-f34ef6a6 wo-20261120-f788858f wo-20261121-40133c93 wo-20261121-411c8a3d wo-20261122-04ab39b5 wo-20261122-c4e7fcf1 wo-20261122-e88ed889 wo-20261125-6fdbd90f wo-20261125-744de24f wo-20261125-bc75443a wo-20261125-c2437307 wo-20261125-dd0e65b9 wo-20261128-6f240816 wo-20261128-e38bfc52 -->
 <!-- work-orders:end -->
